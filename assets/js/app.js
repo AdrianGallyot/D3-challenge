@@ -94,7 +94,7 @@ function updateToolTip(chosenXAxis, circlesGroup) {
 };
 
 // Import Data from CSV file
-d3.csv("../assets/data/data.csv").then(function(censusData, err) {
+d3.csv("data.csv").then(function(censusData, err) {
   if (err) throw err;
   
     // Parse Data & Cast as numbers
